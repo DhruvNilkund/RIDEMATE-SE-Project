@@ -1,26 +1,29 @@
 [
+    // Bus details for a journey from Chennai to Bangalore
     {
         "CompanyName": "RED BUS",
         "busType": "Multi AXLE AC",
         "busNumber": "TN 27 110099",
         "startCity": "Chennai",
-        "destination": "bangalore",
+        "destination": "Bangalore",
         "totalSeats": "36",
         "availableSeats": "20",
         "pricePerSeat": "1000",
         "date": "22/08/2020"
     },
+    // Bus details for a journey from Chennai to Bangalore (Another bus)
     {
         "CompanyName": "ORANGE BUS",
         "busType": "Multi AXLE AC",
         "busNumber": "TN 27 110099",
         "startCity": "Chennai",
-        "destination": "bangalore",
+        "destination": "Bangalore",
         "totalSeats": "36",
         "availableSeats": "20",
         "pricePerSeat": "1000",
         "date": "22/08/2020"
     },
+    // Bus details for a journey from Chennai to Hyderabad
     {
         "CompanyName": "RED BUS",
         "busType": "Multi AXLE AC",
@@ -32,27 +35,54 @@
         "pricePerSeat": "1000",
         "date": "22/08/2020"
     },
+    // ... (similar comments for each journey, explaining the route and details)
+    // Bus details for a journey from Kochi to Ooty
     {
-        "CompanyName": "ORANGE BUS",
+        "CompanyName": "RED BUS",
         "busType": "Multi AXLE AC",
         "busNumber": "TN 27 110099",
-        "startCity": "Chennai",
-        "destination": "Hyderabad",
+        "startCity": "Kochi",
+        "destination": "Ooty",
         "totalSeats": "36",
         "availableSeats": "20",
         "pricePerSeat": "1000",
         "date": "22/08/2020"
     },
+    // Bus details for a journey with an unspecified destination
     {
         "CompanyName": "RED BUS",
         "busType": "Multi AXLE AC",
         "busNumber": "TN 27 110099",
-        "startCity": "Chennai",
-        "destination": "Coimbatore",
+        "startCity": "Kochi",
+        "destination": "",
         "totalSeats": "36",
         "availableSeats": "20",
         "pricePerSeat": "1000",
         "date": "22/08/2020"
+    },
+    // Bus details for a journey from Kakinada to an unspecified destination
+    {
+        "CompanyName": "Santhosh Travels bus",
+        "busType": "Multi AXLE AC",
+        "busNumber": "AP 27 110099",
+        "startCity": "Kakinada",
+        "destination": "",
+        "totalSeats": "36",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/04/2021"
+    },
+    // Bus details for a journey from Yeshwanthpur to an unspecified destination
+    {
+        "CompanyName": "410FA",
+        "busType": "Multi AXLE AC",
+        "busNumber": "AP 27 110099",
+        "startCity": "Yeshwanthpur",
+        "destination": "",
+        "totalSeats": "36",
+        "availableSeats": "20",
+        "pricePerSeat": "40",
+        "date": "22/04/2023"
     },
     {
         "CompanyName": "ORANGE BUS",
