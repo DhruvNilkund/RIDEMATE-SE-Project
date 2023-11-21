@@ -1,3 +1,4 @@
+/* Styles for the header navigation */
 .header-nav {
     text-align: center;
     position: absolute;
@@ -8,10 +9,7 @@
     z-index: 1000;
 }
 
-/* .hide-nav-link-bar{
-    z-index: -1;
-} */
-
+/* Styling for the company name in the header */
 .header-nav span {
     text-transform: uppercase;
     display: block;
@@ -19,7 +17,9 @@
 
 .mytext1 {
     color: #fff;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.425), 0 0 4px rgba(255, 255, 255, 0.425), 0 0 8px rgba(255, 255, 255, 0.425), 0 0 32px rgba(0, 255, 255, 0.425), 0 0 64px rgba(0, 255, 255, 0.425), 0 0 90px rgba(0, 255, 255, 0.425);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.425), 0 0 4px rgba(255, 255, 255, 0.425),
+        0 0 8px rgba(255, 255, 255, 0.425), 0 0 32px rgba(0, 255, 255, 0.425), 0 0 64px rgba(0, 255, 255, 0.425),
+        0 0 90px rgba(0, 255, 255, 0.425);
     font-family: 'Piedra', cursive;
     font-size: 50px;
     font-weight: 200;
@@ -31,6 +31,7 @@
     animation: text 3s 1;
 }
 
+/* Keyframe animation for the header text */
 @keyframes text {
     0% {
         color: white;
@@ -47,6 +48,7 @@
     }
 }
 
+/* Styling for the main button */
 .mainBtn {
     position: relative;
     left: 74%;
@@ -69,21 +71,22 @@
     z-index: 1000;
 }
 
+/* Styling for the SVG element within the main button */
 .mainBtn svg {
     position: absolute;
     top: 0;
     left: 0;
 }
 
+/* Styling for the rectangular shape within the SVG */
 .mainBtn svg rect {
-    /* stroke: #EC0033; */
     stroke-width: 4;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
-    -webkit-transition: all 600ms ease;
     transition: all 600ms ease;
 }
 
+/* Styling for the text within the main button */
 .mainBtn span {
     background: rgb(130, 230, 255);
     background: -moz-linear-gradient(left, rgba(130, 230, 255, 1) 0%, rgb(130, 230, 255) 100%);
@@ -94,21 +97,25 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* Animation for the main button stroke on hover */
 .mainBtn:hover svg rect {
     stroke-width: 4;
     stroke-dasharray: 196, 543;
     stroke-dashoffset: 437;
 }
 
+/* Styling for the main container */
 .maint-cnt {
     height: 100%;
     width: 100%;
 }
 
+/* Global box-sizing rule */
 * {
     box-sizing: border-box;
 }
 
+/* Body styling */
 body {
     display: flex;
     align-items: center;
@@ -118,6 +125,7 @@ body {
     background: black;
 }
 
+/* Styling for the heading text */
 h1 {
     color: #333;
     font-family: tahoma;
@@ -131,15 +139,17 @@ h1 {
     width: 550px;
 }
 
+/* Styling for the additional span within the heading */
 h1 span {
     font-size: 30px;
     margin-left: 15px;
     color: black;
 }
 
+/* Styling for the message div */
 .message {
     background-color: rgba(255, 255, 255, 0.062);
-    border-radius:5px;
+    border-radius: 5px;
     color: #333;
     display: block;
     font-weight: 500;
@@ -148,84 +158,4 @@ h1 span {
     padding-left: 0.5rem;
     top: 0.2rem;
     left: 270px;
-    animation: openclose 5s ease-in-out infinite;
-}
-
-.word1, .word2, .word3 {
-    font-family: tahoma;
-    font-size: 2.9rem;
-}
-
-@keyframes openclose {
-    0% {
-        top: 0.2rem;
-        width: 0;
-    }
-    5% {
-        width: 0;
-    }
-    15% {
-        width: 230px;
-    }
-    30% {
-        top: 0.2rem;
-        width: 230px;
-    }
-    33% {
-        top: 0.2rem;
-        width: 0;
-    }
-    35% {
-        top: 0.2rem;
-        width: 0;
-    }
-    38% {
-        top: -4.5rem;
-    }
-    48% {
-        top: -4.5rem;
-        width: 190px;
-    }
-    62% {
-        top: -4.5rem;
-        width: 190px;
-    }
-    66% {
-        top: -4.5rem;
-        width: 0;
-        text-indent: 0;
-    }
-    71% {
-        top: -9rem;
-        width: 0;
-        text-indent: 5px;
-    }
-    86% {
-        top: -9rem;
-        width: 285px;
-    }
-    95% {
-        top: -9rem;
-        width: 285px;
-    }
-    98% {
-        top: -9rem;
-        width: 0;
-        text-indent: 5px;
-    }
-    100% {
-        top: 0;
-        width: 0;
-        text-indent: 0;
-    }
-}
-
-.word3 {
-    font-size: 2.5rem;
-}
-
-.slogan {
-    position: absolute;
-    top: 170px;
-    left: 645px;
-}
+    animation
