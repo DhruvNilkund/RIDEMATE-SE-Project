@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-
+// Define the schema for the 'buses' collection
 const BusSchema = new Schema({
     companyName: {
         type: String
@@ -27,8 +27,14 @@ const BusSchema = new Schema({
     pricePerSeat: {
         type: String
     }
-}, {collection: "buses"})
+}, {
+    // Specify the name of the collection in the MongoDB database
+    collection: "buses"
+});
 
-const bus = mongoose.model('bus', BusSchema)
+// Create a Mongoose model named 'bus' based on the defined schema
+const bus = mongoose.model('bus', BusSchema);
 
+// Export the 'bus' model to be used in other parts of the application
 module.exports = bus;
+
