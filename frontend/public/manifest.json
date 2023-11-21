@@ -1,6 +1,13 @@
+// JSON configuration for a Progressive Web App (PWA) created with Create React App
+
+// Short name for the app (used as an identifier)
 {
   "short_name": "React App",
+
+  // Full name or description of the app
   "name": "Create React App Sample",
+
+  // Array of icons with different sizes and types
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +25,16 @@
       "sizes": "512x512"
     }
   ],
+
+  // Start URL for the app, typically the root directory
   "start_url": ".",
+
+  // Display mode of the app (standalone means it's a standalone application)
   "display": "standalone",
+
+  // Theme color for the app's UI elements
   "theme_color": "#000000",
+
+  // Background color for the app's UI
   "background_color": "#ffffff"
 }
